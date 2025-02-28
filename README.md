@@ -84,49 +84,8 @@ yarn start  # or npm start
 |--------|------------------------|-----------------------------------|
 | GET    | `/experiments/`         | Fetch all experiments            |
 | POST   | `/start_experiment/`    | Start a new experiment           |
-
----
-
-## Directory Structure
-```
-experiment-management-system/
-│── backend/
-│   ├── alembic/               # Database migrations
-│   ├── data/                  # MNIST dataset (if using local data)
-│   ├── api.py                 # FastAPI endpoints
-│   ├── models.py              # SQLAlchemy models
-│   ├── schemas.py             # Pydantic schemas
-│   ├── train.py               # Experiment training logic
-│   ├── database.py            # Database connection
-│   ├── init_db.py             # Database initialization script
-│   ├── requirements.txt       # Backend dependencies
-│
-│── frontend/
-│   ├── src/
-│   │   ├── App.js             # React main component
-│   │   ├── index.js           # React entry point
-│   │   ├── styles.css         # TailwindCSS styles
-│   ├── package.json           # Frontend dependencies
-│
-│── README.md                  # Project documentation
-│── docker-compose.yml         # Optional: Docker setup
-```
-
----
-
-## Future Improvements
-- Implement authentication & user management.
-- Support additional ML models beyond MNIST.
-- Add experiment result visualization (graphs, charts).
-- Deploy backend and frontend to cloud platforms.
-
----
-
-## License
-This project is licensed under the MIT License.
-
 ---
 
 ## Contributors
-- **Your Name** - [GitHub](https://github.com/tungnd237)
+- **Tung Nguyen** - [GitHub](https://github.com/tungnd237)
 
